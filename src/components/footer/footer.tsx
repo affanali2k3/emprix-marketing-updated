@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import  './footer.css';
 
 import rec197 from '../../assets/Rectangle 197.png';

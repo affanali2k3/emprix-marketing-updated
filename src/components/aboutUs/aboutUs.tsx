@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import './aboutus.css';
 
 import group7223 from '../../assets/Group 7223.png';

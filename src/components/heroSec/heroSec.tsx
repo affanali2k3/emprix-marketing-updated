@@ -7,8 +7,6 @@ import group7321 from '../../assets/Group7321.png';
 import group7320 from '../../assets/Group7320.png';
 import group7318 from '../../assets/Group 7318.svg';
 import group7319 from '../../assets/Group7319.png';
-import ellipse17 from '../../assets/Ellipse17.png';
-import ellipse23 from '../../assets/Ellipse23.png';
 import group7327 from '../../assets/Group 7327.png';
 
 
