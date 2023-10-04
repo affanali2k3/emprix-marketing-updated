@@ -1,0 +1,132 @@
+.pFooter{
+    padding: 0px;
+}
+
+.footerWrappr{
+    width: 100vw;
+    overflow: hidden;
+    column-gap: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.topRow{
+    padding:4.4em 4.4em 3em 4.4em;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background:  linear-gradient(91deg, #0866CC -10.25%, #2E9FF8 150.7%);
+    align-items: center;
+    padding: 50px 400px 50px 400px;
+    text-align: center;
+}
+.imgFoot{
+    margin-bottom: 20px;
+}
+.pFooter{
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.footerWrappr .innerLt p{
+    display: flex;
+    align-items: center;
+}
+.btmRow{
+    background: #0056BB;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socialGrp > *{
+    padding: 0 10px 0 10px;
+}
+.mainImg{
+    width: 20%;
+}
+
+.btmRow .innerLt p, .btmRow .innerLt span{
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 2em;
+}
+
+#root > div.footerWrappr > div.btmRow > div.innerLtt > p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.footerWrappr{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.topRow{
+    padding:4.4em 4.4em 4.5em 4.4em;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    background:  linear-gradient(91deg, #0866CC -10.25%, #2E9FF8 150.7%);
+}
+.btmRow{
+    background: #0056BB;
+    margin: 0;
+}
+@media (max-width: 768px){
+.innerLt{
+    padding: 20px;
+
+}
+.socialGrp{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgFoot{
+    padding-bottom: 20px;
+}
+.btmRow{
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.spanfot{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.innerRt a,.innerRt li{
+    color:white;
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+}
+
+
+}

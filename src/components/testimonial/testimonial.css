@@ -1,0 +1,142 @@
+.wrapOuter{
+    max-width: 100vw;
+    overflow: hidden;
+
+    
+}
+.wrapOne .pentagon-1{
+    background-color: #FFEBBF;
+    filter: blur(80px);
+    height: 230px;
+    border-radius: 100px;
+    width: 230px;
+    position:relative;
+    top: 10%;    
+    left: -10%;
+}
+.wrapOne .pentagon-2{
+    background-color:#FFCDCDB5;
+    filter: blur(80px);
+    height: 230px;
+    border-radius: 100px;
+    width: 230px;
+    position:relative;
+    top: 30vh;    
+    left:   90%;
+}
+.wrapOne .pentagon-3{
+    background-color:#FFEBBF;
+    filter: blur(80px);
+    height: 230px;
+    border-radius: 100px;
+    width: 230px;
+    position:relative;
+    top: 10%;    
+    left:   50%;
+}
+.blogwrap > .imgTest{
+    margin-top: -230px;
+}
+.outWrap{
+    width: 100vw;
+
+    padding-top: 60px;
+    margin-top: 30px ;
+    background-color: #A0CEFF38;
+    background-color: #A0CEFF38;
+    box-shadow: 0 0 51px 100px #A0CEFF38;
+}
+.testWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -460px;
+}
+
+.innerRt,.innerLt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.innerRt{
+    margin-top: 170px;
+}
+
+.testWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .imgTest{
+    transition: 0.4s;
+} */
+
+/* .imgTest:hover,.imgTest:active{
+    transform: scale(1.5);
+    transition: 0.6s;} */
+
+.heading{
+    width: 20%;
+
+}
+.imgWrapperTest { 
+    display: flex;
+    position: relative;
+    left: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+@media screen and (max-width: 786px) {
+
+    .innerRt{
+        max-width: 690px;
+
+    }
+    .imgTest{
+        max-width:300px !important;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 0px;
+    }
+    .testWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .blogwrap,.imgWrapperTest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* transition: 0.6s; */
+    }
+
+
+
+    .innerLt,.innerRt{
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.6s; */
+    }
+
+    /* .imgTest:hover,.imgTest:active{
+        transform: scale(1.5);
+        transition: 0.6s;
+       
+    } */
+
+}
