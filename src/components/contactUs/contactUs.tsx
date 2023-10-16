@@ -4,6 +4,7 @@ import './contactus.css';
 
 import group7334 from '../../assets/Group 7334.png';
 import group7335 from '../../assets/Group 7335.png';
+import group7340 from '../../assets/Group 7340.svg';
 import vector from '../../assets/Vector.png';
 import icroundemail from '../../assets/ic_round-email.png';
 import basilinsta from '../../assets/basil_instagram-solid.png';
@@ -36,7 +37,7 @@ const ContactForm: React.FC = () => {
     <div className="formSec" id='section6'>
 
     <div className="formWrapper">
-        <img className='imgFormWrap' src={group7334} alt="" />
+        <img className='imgFormWrap' src={group7340} alt="" />
     <form onSubmit={handleSubmit}>
       <div>
         {/* <label htmlFor="name">Name:</label> */}
@@ -74,10 +75,12 @@ const ContactForm: React.FC = () => {
           required
         />
       </div>
-      <button className='contact-button' type="submit">Book Now</button>
+      <button className='contact-button' type="submit">Send Message</button>
     </form>
     </div>
     <div className="innerSecFormRt">
+      <div className="inInnerSecTxt">
+
         <h1>GET IN TOUCH</h1>
         <div className="cellForm1">
             <img src={vector} alt="" />
@@ -91,6 +94,7 @@ const ContactForm: React.FC = () => {
             <img src={basilinsta} alt="" />
             <p>Info@emprixmarketing</p>
         </div>
+      </div>
         <img className='imgFotseter' src={group7335} alt="" />
     </div>
     </div>

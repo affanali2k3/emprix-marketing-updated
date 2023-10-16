@@ -102,6 +102,43 @@
     display: flex;
   }
 
+    .logo{
+      align-items: center !important;
+      column-gap: 2px;
+    }
+
+    .bar{
+      width: 22px;
+      margin: 3px;
+    }
+
+  .imgBbar{
+    height: 25px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .imgBbarLt{
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .header{
+    height: 55px;
+  }
+
+  .hideListing{
+    display:block;
+  }
+  .headBtnContact{
+    display: none !important;
+  }
+
+  .nav{
+    width: 100%;
+  }
+
   .menu {
     display: none;
     flex-direction: column;
@@ -122,6 +159,9 @@
     padding: 10px 20px;
     border-bottom: 1px solid #ccc;
   }
+
+  .aderNavWrap { 
+    position: absolute;
 }
 .hideListing{
   display: none;
@@ -152,160 +192,39 @@
 .headBtnContact:hover{
   background:  linear-gradient(91deg, #ff7ca3 -10.25%, #ff9ff8 150.7%);
 }
-
-
-@media (max-width: 768px){
-  
-  .imgBbar{
-    display: none !important;
-  }
-  .imgBbarLt{
-    transform: translateY(8px);
-  }
-  .hideListing{
-    display:block;
-  }
-  .headBtnContact{
-    display: none;
-  }
 }
 
 
-/* Header.module.css
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  background-color: #fff;
-  transition: transform 0.3s ease-in-out;
-  z-index: 1000;
-  color: #343434;
-  min-height: 70px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    
-  }
-  
-  .visible {
-    transform: translateY(0);
-  }
-  
-  .hidden {
-    transform: translateY(-100%);
-  }
-  
-.hamburger {
-  display: none; /* Hide the hamburger menu on larger screens 
-  cursor: pointer;
+
+
+
+
+.hideListing{
+  display: none;
 }
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
-.open .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.open .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  color: #343434;
-}
-
-.open .menu {
-  left: 0;
-}
-
-.menu li {
-  padding: 10px;
-  text-align: center;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-
-text-align: center;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-line-height: 137.193%; /* 1.20044rem 
-text-transform: capitalize;
-
-}
-
-/* Add media queries to control when the mobile menu is displayed 
-@media (max-width: 768px) {
-  header{
-    overflow: hidden;
-    width: 100vw !important;
-  }
-  .hamburger {
-    display: block; 
-    transform: translate(70px,10px);/*Display the hamburger menu on smaller screens
-  }
-  .menu{
-    display: none;
-  
-  }
-  .btnContact{
-    display: none;
-  }
-  #logoLt{
-    display: none;
-  }
-  #logoRt{
-    transform:translate(20px,10px);
-  }
-
-  } 
-
-
-  .logo{
-    padding-top:15px ;
-  }
-
-
-.btnContact{
+.headBtnContact{
+  width: 140px;
+  height: 43px;
   background: linear-gradient(91deg, #0866CC -10.25%, #2E9FF8 150.7%);
-  color: white;
-  border-radius:23px ;
+  border-radius: 17px;
   text-align: center;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  vertical-align: middle;
+  display: flex;
+  color: #FFF;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
   font-weight: 500;
-  font-family: inherit;
+  line-height: 137.193%;
+  text-transform: capitalize;
   cursor: pointer;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.btnContact:active{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
-}
-.navi{
-  display: flex;
-  flex-direction: row;
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
-  width: 60%;
-} */
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.headBtnContact:hover{
+  background:  linear-gradient(91deg, #ff7ca3 -10.25%, #ff9ff8 150.7%);
+}

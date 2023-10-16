@@ -10,16 +10,7 @@
     flex-direction: column;
     margin-top: 40px;
 }
-.topRow{
-    padding:4.4em 4.4em 3em 4.4em;
-    display: flex;
-    color: white;
-    flex-direction: column;
-    background:  linear-gradient(91deg, #0866CC -10.25%, #2E9FF8 150.7%);
-    align-items: center;
-    padding: 50px 400px 50px 400px;
-    text-align: center;
-}
+
 .imgFoot{
     margin-bottom: 20px;
 }
@@ -87,6 +78,7 @@ a{
     color: white;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     background:  linear-gradient(91deg, #0866CC -10.25%, #2E9FF8 150.7%);
 }
 .btmRow{
@@ -98,6 +90,18 @@ a{
     padding: 20px;
 
 }
+
+.pFooter{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: 10.828px; /* 154.68% */
+padding-bottom: 20px ;
+margin-bottom: 0;
+}
 .socialGrp{
     padding: 20px;
     display: flex;
@@ -106,27 +110,75 @@ a{
 }
 
 .imgFoot{
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    width: 30%;
 }
 .btmRow{
     vertical-align: middle;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .spanfot{
-    color:white;
-    font-weight: bold;
-    font-size: 25px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.193%;
+    text-transform: capitalize;
+}
+
+#root > div.footerWrappr > div.btmRow > div.innerRtt > ul > li{
+
+    font-size: 5px;
+font-style: normal;
+font-weight: 400;
+line-height: 127.023%; 
+
+}
+
+#root > div.footerWrappr > div.btmRow > div.innerLtt > p{
+
+    font-size: 5px;
+font-style: normal;
+font-weight: 400;
+line-height: 137.193%; /* 6.86px */
+text-transform: capitalize;
 }
 
 .innerRt a,.innerRt li{
     color:white;
     text-decoration: none;
     display: inline;
-    margin: 10px;
+    margin: 0px;
 }
 
+#root > div.footerWrappr > div.topRow > div > img:nth-child(1),#root > div.footerWrappr > div.topRow > div > img:nth-child(2),#root > div.footerWrappr > div.topRow > div > img:nth-child(3),#root > div.footerWrappr > div.topRow > div > img:nth-child(4){
+    width: 10px !important;
+    padding: 0;
+    margin: 0;    max-height: 1% !important;
+}
+
+#root > div.footerWrappr > div.topRow > div > img:nth-child(2)
+{
+    width: 7px !important;
+}
+
+.topRow{
+    padding: 17px;
+}
+
+
+.socialGrp{
+
+    object-fit: contain;
+    padding: 0;
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;}
 
 }

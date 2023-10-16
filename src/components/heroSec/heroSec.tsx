@@ -15,18 +15,18 @@ const heroSec = () => {
     return(
         <>
         <div className= "heroSec" id='section1'>
-            <div className="pentagon-1"></div>
+            {/* <div className="pentagon-1"></div>
             <div className="pentagon-2"></div>
-            <div className="pentagon-3"></div>
+            <div className="pentagon-3"></div> */}
             <div className= "mainPara" >
                 <div  id="topParaMaiN" >
-                <img src={group7318} alt="" />
+                <img id="heroSecImgText" src={group7318} alt="" />
                 </div>
             
          
         <p id = "botmParaMain" >Maximize the complete potential of social media to establish your brand.</p>
         </div>
-        <span className = "btnContact" > Book A FREE Consultation Call </span>
+        <span className = "btnContact" > Get Started </span>
         <img  id="group7317" src={group7317} alt="main Section" />
         </div>
         <img id='group121' src={group121} alt="" />
@@ -34,7 +34,7 @@ const heroSec = () => {
         <div className="sec2UnderMainPara">
             <div className="colLtt">
                 <img className="colLttImg" src={group7327} alt="" />
-                <div className="pentagon-1"></div>
+                {/* <div className="pentagon-1"></div> */}
                 <h1 id='section2'>What We Offer</h1>
                 <p>We specialize in boosting e-commerce businesses through effective social media marketing. Our goal is to enhance your brand's online presence, engage your target audience, and drive growth in the  ever-evolving digital marketplace.</p>
             </div>

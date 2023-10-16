@@ -4,6 +4,7 @@ import './FaqSection.css'; // Import your CSS for styling (you can create this f
 
 import group7333 from '../../assets/Group 7333.png'
 import group7234 from '../../assets/Group 7234.png'
+import group7339 from '../../assets/Group 7339.svg'
 import frameSvg from '../../assets/Frame.svg'
 
 
@@ -32,6 +33,7 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqItems }) => {
       <img className='faqImgquestio' src={group7234} alt="" />
     </div>
       <img className='faqImg' src={group7333} alt="" />
+      <img className='faqImgquestionn' src={group7339} alt="" />
     </div>
     <div className="faq-section">
       {faqItems.map((item, index) => (
