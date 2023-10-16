@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import './contactus.css';
 
-import group7334 from '../../assets/Group 7334.png';
 import group7335 from '../../assets/Group 7335.png';
 import group7340 from '../../assets/Group 7340.svg';
 import vector from '../../assets/Vector.png';
