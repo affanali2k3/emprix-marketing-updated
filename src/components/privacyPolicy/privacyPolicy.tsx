@@ -1,7 +1,7 @@
 // PrivacyPolicy.js
 
 import Modal from 'react-modal';
-// import './PrivacyPolicy.css'
+import './privacyPolicy.css'
 const PrivacyPolicy = ({ isOpen, onClose  }: {isOpen: any, onClose: any}) => {
   return (
     <Modal
