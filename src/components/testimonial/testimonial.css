@@ -53,6 +53,11 @@
 .blogwrap > .imgTest{
     margin-top: 30px;
 }
+.testimonial-image{
+    height: auto;
+    width: 26vw;
+    transform: translate(30px, -90px);
+}
 .outWrap{
     width: 100vw;
 
@@ -120,6 +125,12 @@
 }
 
 @media screen and (max-width: 786px) {
+
+    .testimonial-image{
+        height: auto;
+        width: 45vw;
+        transform: translate(0px, 0px);
+    }
 
     .innerRti{
         max-width: 690px;

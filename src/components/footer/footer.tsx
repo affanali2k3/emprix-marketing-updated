@@ -1,12 +1,34 @@
 import  './footer.css';
-
+import { useState } from 'react';
 import rec197 from '../../assets/Rectangle 197.png';
 import vec1 from '../../assets/Vector (1).png';
 import vec2 from '../../assets/Vector (2).png';
 import vec3 from '../../assets/Vector (3).png';
 import vec4 from '../../assets/Vector (4).png';
+import PrivacyPolicy from '../privacyPolicy/privacyPolicy';
+import TermsAndConditions from '../privacyPolicy/termsCondition';
 
 const footer = () => {
+
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+    const [isTermsConditionOpen, setIsTermsConditionOpen] = useState(false);
+
+    const openPopup = () => {
+      setIsPopupOpen(true);
+    };
+  
+    const closePopup = () => {
+      setIsPopupOpen(false);
+    };
+  
+    const openTermsConditionPopup = () => {
+        setIsTermsConditionOpen(true);
+    };
+  
+    const closeTermsConditionPopup = () => {
+        setIsTermsConditionOpen(false);
+    };
+  
 
     return(
         <>
@@ -27,11 +49,15 @@ const footer = () => {
                 </div>
                 <div className="innerRtt">
                     <ul>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a className="terms-and-condition-button" onClick={openTermsConditionPopup}>Terms & Conditions</a></li>
+                        <li><a className='privacy-policy-button' onClick={openPopup}>Privacy Policy</a></li>
+                        
                     </ul>
                 </div>
             </div>
+            <PrivacyPolicy isOpen={isPopupOpen} onClose={closePopup} />
+            <TermsAndConditions isOpen={isTermsConditionOpen} onClose={closeTermsConditionPopup}></TermsAndConditions>
+
         </div>
 
         </>

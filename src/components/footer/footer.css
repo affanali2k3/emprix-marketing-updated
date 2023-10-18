@@ -11,6 +11,13 @@
     margin-top: 40px;
 }
 
+.footerWrappr .privacy-policy-button:hover{
+    cursor: pointer;
+}
+.footerWrappr .terms-and-condition-button:hover{
+    cursor: pointer;
+}
+
 .imgFoot{
     margin-bottom: 20px;
 }

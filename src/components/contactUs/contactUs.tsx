@@ -83,7 +83,7 @@ const ContactForm: React.FC = () => {
         <h1>GET IN TOUCH</h1>
         <div className="cellForm1">
             <img src={vector} alt="" />
-            <p>1412 Broadway 21st Floor, New York, NY 10018</p>
+            <p>502 W 7TH STREET SUITE 100 ERIE, PA 16502</p>
         </div>
         <div className="cellForm2">
             <img src={icroundemail} alt="" />

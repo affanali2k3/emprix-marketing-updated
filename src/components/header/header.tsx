@@ -49,7 +49,7 @@ const Header: React.FC = () => {
         <ul className={`menu ${isMobileMenuOpen ? 'open' : ''}`}>
           <li><a href="#section1">Home</a></li>
           <li><a href="#section2">Services</a></li>
-          <li><a href="#section3">Pricing</a></li>
+          {/* <li><a href="#section3">Pricing</a></li> */}
           <li><a href="#section4">About Us</a></li>
           <li><a href="#section5">Testimonials</a></li>
           <li className='hideListing'><a href="#section6">Contact Us</a></li>

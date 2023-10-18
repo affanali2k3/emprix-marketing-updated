@@ -1,7 +1,8 @@
 import  './testimonial.css';
 
 import group7328 from '../../assets/Group 7328.png'
-import group7227 from '../../assets/Group 7227.png'
+// import group7227 from '../../assets/Group 7227.png'
+import group7227 from '../../assets/testimonials.svg'
 import group7254 from '../../assets/Group 7254.png'
 import group7329 from '../../assets/Group 7329.png'
 import group7330 from '../../assets/Group 7330.png'
@@ -24,7 +25,8 @@ const testimonial = () => {
                     <img className='imgTest' src={group7328} alt="testimonials" />
                     </div>
                     <div className="innerRti">
-                    <img className='imgTest' src={group7227} alt="proof" />
+                    <img className='testimonial-image imageTest' src={group7227} alt="proof" />
+                    {/* <img className='imgTest' src={group7227} alt="proof" /> */}
                     </div>
                 </div>
                 <div className="outWrap">
