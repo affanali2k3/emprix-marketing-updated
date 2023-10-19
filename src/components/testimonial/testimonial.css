@@ -55,7 +55,7 @@
 }
 .testimonial-image{
     height: auto;
-    width: 26vw;
+    width: 30vw;
     transform: translate(30px, -90px);
 }
 .outWrap{
@@ -128,7 +128,7 @@
 
     .testimonial-image{
         height: auto;
-        width: 45vw;
+        width: 70vw;
         transform: translate(0px, 0px);
     }
 
