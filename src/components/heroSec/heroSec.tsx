@@ -51,7 +51,7 @@ const heroSec = () => {
                     <div className="cellBtm">
                         <img src={group7319} alt="retargeting" />
                         <div className="contTextim">
-                        <h6>Retargeting Campaignsy</h6>
+                        <h6>Retargeting Campaigns</h6>
                         <p>Re-engaging past visitors and<br></br> converting window shoppers into<br></br> loyal customers.</p>
                     </div>
 
