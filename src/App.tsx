@@ -17,11 +17,11 @@ const faqItems = [
   },
   {
     question: 'Can I see case studies or examples of past campaigns for e-commerce brands?',
-    answer: 'Answer 2',
+    answer: 'To access e-commerce brand case studies, please contact our sales or support team for relevant examples showcasing our past successes.',
   },
   {
     question: 'How do you measure the success of a campaign?',
-    answer: 'Answer 3',
+    answer: 'Campaign success is measured by achieving objectives, ROI, conversion rates, and other KPIs specific to campaign goals, ensuring our strategies deliver value.',
   },
 ];
 
