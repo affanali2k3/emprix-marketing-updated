@@ -85,10 +85,6 @@ const ContactForm: React.FC = () => {
             <img src={vector} alt="" />
             <p>502 W 7TH STREET SUITE 100 ERIE, PA 16502</p>
         </div>
-        <div className="cellForm2">
-            <img src={icroundemail} alt="" />
-            <p>@emprixmarketing.com</p>
-        </div>
         <div className="cellForm3">
             <img src={basilinsta} alt="" />
             <p>Info@emprixmarketing</p>
