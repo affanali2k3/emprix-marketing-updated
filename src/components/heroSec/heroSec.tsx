@@ -26,7 +26,7 @@ const heroSec = () => {
          
         <p id = "botmParaMain" >Maximize the complete potential of social media to establish your brand.</p>
         </div>
-        <span className = "btnContact" > Get Started </span>
+            <a href='#section6' className = "btnContact"> Get Started </a>
         <img  id="group7317" src={group7317} alt="main Section" />
         </div>
         <img id='group121' src={group121} alt="" />
