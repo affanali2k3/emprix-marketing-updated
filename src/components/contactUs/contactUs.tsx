@@ -5,7 +5,6 @@ import './contactus.css';
 import group7335 from '../../assets/Group 7335.png';
 import group7340 from '../../assets/Group 7340.svg';
 import vector from '../../assets/Vector.png';
-import icroundemail from '../../assets/ic_round-email.png';
 import basilinsta from '../../assets/basil_instagram-solid.png';
 
 
